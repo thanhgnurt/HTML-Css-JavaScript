@@ -1,0 +1,68 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    
+}
+
+#Top{
+    margin-top: 25px;
+    background: red;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#Banner {
+    margin-top: 20px;
+}
+
+#Banner #hr1 hr {
+    
+    width: 50%;
+    align: center;
+    border-width: 3px;    
+    
+}
+
+#Banner #menu ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+#coffe {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: darkgreen;
+    text-align: center;
+}
+#lorem {
+    text-align: right;
+    font-size: 20px;
+}
+
+#listcoffe {
+    font-size: 25px;
+
+}
+#listcf {
+    font-size: 20px;
+}
+#hinh img {
+    width: 50%;
+    height: 50%;
+}
+#tra li{
+    list-style: upper-roman;
+    font-size: 20px;
+
+}
+#hinhtra img{
+    width: 50%;
+    height: 50%;
+}
+#table {
+    border: brown;
+    border: 1px solid black;
+  border-collapse: collapse;
+}

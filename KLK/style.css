@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#logo  img{
+    width: 200px;
+    height: auto;
+}
+#menu ul li{
+    text-transform: capitalize;
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    padding: 20px;
+
+}
+#menu {
+    background: black;
+   
+}
+#menu ul {
+    padding:10px;
+}
+#background {
+    background-image: url('./img/slider_1.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro p span {
+    color: brown;
+    text-transform: uppercase;
+
+}
+
+#intro .p-left, .p-right {
+    float: left;
+    width: 50%;
+}
+.width-50 {
+    
+    width: 50%;
+}
+.width-100{
+    width: 100%;
+}
+.pro img {
+    width: 100%;
+
+}
+.pro{
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+#best h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.p-name {
+    float: left;
+    width: 25%;
+}
+.p-name button{
+    width: 100px;
+    height: 20px;
+    border: none;
+    background-color: brown;
+    border-radius: 4px;
+    color: white;
+
+}
+#banner {
+    background-image: url('./img/nature.jpg');
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+}
+#banner #ground {
+    background-color: #ff000052;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    
+}
+.text {
+    color: white;
+    text-align: center;
+    
+}
+#banner #ground > h3{
+    font-size: 40px;
+    padding-top: 50px;
+}
+#banner #ground > p:nth-child(2){
+    font-size: 70px;
+    padding: 10px 0;
+}
+#banner #ground > p:nth-child(3){
+    font-size: 30px;
+
+}
+#banner #ground > p:nth-child(4){
+    font-size: 30px;
+
+}
+
+
+
+
